@@ -1,0 +1,13 @@
+*.log
+*.dpf
+*.txt
+*.jar
+*.war
+*.ear
+*.class
+*.swp
+
+#Project
+InitialisationProjetAvance/target
+database.properties
+/BankTransactionProject/target/
