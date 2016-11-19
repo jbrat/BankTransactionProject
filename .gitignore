@@ -9,5 +9,5 @@
 
 #Project
 InitialisationProjetAvance/target
-database.properties
+BankTransactionProject/src/main/resources/database.properties
 /BankTransactionProject/target/
