@@ -11,3 +11,6 @@
 InitialisationProjetAvance/target
 BankTransactionProject/src/main/resources/database.properties
 /BankTransactionProject/target/
+
+#Server
+tomcat
