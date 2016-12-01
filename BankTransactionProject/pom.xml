@@ -124,6 +124,18 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate-version}</version>
 		</dependency>
+	 <dependency>
+	  <groupId>org.springframework.data</groupId>
+	  <artifactId>spring-data-commons</artifactId>
+	  <version>1.12.3.RELEASE</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>javax.inject</groupId>
+	  <artifactId>javax.inject</artifactId>
+	  <version>1</version>
+	  <type>jar</type>
+	 </dependency>
 	</dependencies>
 	<build>
 		<finalName>spring-batch</finalName>

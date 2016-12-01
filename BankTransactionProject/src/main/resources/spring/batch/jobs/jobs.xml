@@ -28,6 +28,9 @@
 	<bean id="main" class="com.ujm.xmltech.App" />
 
 	<bat:job id="integratePain008File">
+                <bat:step id="notifyRead" next="moveToWork">
+                    <bat:tasklet ref="notifyReadTasklet" />
+                </bat:step>
 		<bat:step id="moveToWork" next="validateFile">
 			<bat:tasklet ref="moveToWorkTasklet" />
 		</bat:step>
@@ -40,7 +43,6 @@
 		<bat:step id="moveToArchive">
 			<bat:tasklet ref="moveToArchiveTasklet" />
 		</bat:step>
-
 	</bat:job>
 
 	<!--  <bat:job id="writePain008Report">
@@ -49,6 +51,7 @@
 		</bat:step>
 	</bat:job>  -->
 
+        <bean id="notifyReadTasklet" class="com.ujm.xmltech.tasklet.NotifyReadTasklet" />
 	<bean id="moveToWorkTasklet" class="com.ujm.xmltech.tasklet.MoveToWork" />
 	<bean id="validateFileTasklet" class="com.ujm.xmltech.tasklet.Pain008Checker" />
 	<bean id="xmlItemReader" class="com.ujm.xmltech.tasklet.Pain008Reader" scope="step" />

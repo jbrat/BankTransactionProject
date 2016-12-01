@@ -1,0 +1,4793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+<CstmrDrctDbtInitn>
+<GrpHdr>
+    <MsgId>myGenedFile1421605608600</MsgId>
+    <CreDtTm>2015-01-18T19:26:48</CreDtTm>
+    <NbOfTxs>120</NbOfTxs>
+    <CtrlSum>12000</CtrlSum>
+    <InitgPty>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+        <CtctDtls>
+            <Nm>DelaunayCred</Nm>
+            <EmailAdr>creditor@mail.com</EmailAdr>
+        </CtctDtls>
+    </InitgPty>
+</GrpHdr>
+<PmtInf>
+    <PmtInfId>1</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV00</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV00</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV01</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV01</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV02</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV02</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV03</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV03</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV04</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV04</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV05</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV05</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV06</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV06</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV07</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV07</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV08</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV08</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV09</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV09</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV010</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV010</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV011</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV011</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV012</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV012</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV013</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV013</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV014</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV014</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV015</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV015</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV016</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV016</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV017</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV017</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV018</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV018</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BKNKENDIDUDEV019</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BKNKRUMUDEV019</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BKNKFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>2</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV10</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV10</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV11</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV11</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV12</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV12</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV13</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV13</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV14</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV14</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV15</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV15</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV16</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV16</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV17</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV17</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV18</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV18</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV19</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV19</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV110</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV110</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV111</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV111</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV112</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV112</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV113</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV113</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV114</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV114</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV115</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV115</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV116</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV116</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV117</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV117</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV118</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV118</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>UDEVENDIDUDEV119</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>UDEVRUMUDEV119</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>3</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV20</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV20</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV21</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV21</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV22</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV22</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV23</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV23</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV24</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV24</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV25</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV25</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV26</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV26</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV27</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV27</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV28</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV28</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV29</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV29</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV210</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV210</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV211</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV211</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV212</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV212</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV213</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV213</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV214</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV214</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV215</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV215</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV216</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV216</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV217</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV217</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV218</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV218</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>STESENDIDUDEV219</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>STESRUMUDEV219</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>STESFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>4</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV30</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV30</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV31</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV31</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV32</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV32</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV33</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV33</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV34</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV34</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV35</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV35</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV36</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV36</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV37</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV37</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV38</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV38</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV39</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV39</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV310</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV310</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV311</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV311</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV312</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV312</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV313</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV313</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV314</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV314</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV315</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV315</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV316</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV316</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV317</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV317</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV318</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV318</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>AMJZENDIDUDEV319</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>AMJZRUMUDEV319</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>AMJZFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>5</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV40</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV40</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV41</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV41</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV42</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV42</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV43</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV43</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV44</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV44</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV45</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV45</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV46</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV46</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV47</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV47</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV48</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV48</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV49</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV49</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV410</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV410</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV411</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV411</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV412</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV412</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV413</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV413</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV414</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV414</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV415</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV415</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV416</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV416</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV417</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV417</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV418</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV418</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BHARENDIDUDEV419</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BHARRUMUDEV419</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BHARFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>6</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2015-01-30</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCred</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>UDEVFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV50</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV50</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV51</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV51</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV52</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV52</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV53</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV53</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV54</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV54</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV55</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV55</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV56</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV56</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV57</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV57</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV58</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV58</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV59</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV59</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV510</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV510</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV511</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV511</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV512</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV512</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV513</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV513</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV514</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV514</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV515</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV515</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV516</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV516</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV517</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV517</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV518</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV518</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>BGDYENDIDUDEV519</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>BGDYRUMUDEV519</MndtId>
+            <DtOfSgntr>2014-12-18</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BGDYFRPPRIG</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Captain lambda</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+</CstmrDrctDbtInitn>
+</Document>
