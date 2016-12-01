@@ -19,6 +19,7 @@ public class MoveToWork implements Tasklet {
     File file = new File(BankSimulationConstants.IN_DIRECTORY + input);
     boolean moved = file.renameTo(new File(BankSimulationConstants.WORK_DIRECTORY + input));
     System.out.println("file moved : " + moved + " in [" + file.getAbsolutePath() + "]");
+    
     return RepeatStatus.FINISHED;
   }
 }

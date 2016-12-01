@@ -13,6 +13,7 @@ import com.ujm.xmltech.services.TransactionService;
 import iso.std.iso._20022.tech.xsd.pain_008_001.DirectDebitTransactionInformation9;
 import iso.std.iso._20022.tech.xsd.pain_008_001.PaymentInstructionInformation4;
 import java.util.Iterator;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -60,6 +61,21 @@ public class TransactionServiceImpl implements TransactionService {
             System.out.println("TRANSACTION OK :"+newTransaction.getId());
         }
     }  
+
+    @Override
+    public List<FilePain008> getFilesPain008() {
+        return transactionDAO.getFilesPain008();
+    }
+
+    @Override
+    public List<Transaction> getTransactionsByFileMsgId(String msgId) {
+       return transactionDAO.getTransactionsByFileMsgId(msgId);
+    }
+
+    @Override
+    public Transaction deleteTransaction(long id) {
+        return transactionDAO.deleteTransaction(id);
+    }
 
   
     

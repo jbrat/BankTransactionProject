@@ -21,7 +21,7 @@ public class TransactionFactory {
         newTransaction.setEndToEndId(infoTransaction.getPmtId().getEndToEndId());
         newTransaction.setCurrency(infoTransaction.getInstdAmt().getCcy());
         newTransaction.setDate(infoTransaction.getDrctDbtTx().getMndtRltdInf().getDtOfSgntr().toGregorianCalendar().getTime().toGMTString());
-        //newTransaction.setIbanCreditor(GetBasicInfo.getCreditorIban(transaction008));
+        newTransaction.setIbanCreditor(GetBasicInfo.getCreditorIban(transaction008));
         newTransaction.setIbanDebitor(GetBasicInfo.getDebitorIban(transaction008));
         newTransaction.setChecksum(GetBasicInfo.getChecksumTransaction(transaction008));
         

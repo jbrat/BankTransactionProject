@@ -15,12 +15,15 @@ public class App {
 
     //TP scheduler
     public void launch() {
+        
         File input = FileManagementUtils.retrieveFileToProcess();
+       
         if (input != null) {
             String[] springConfig = { "spring/batch/jobs/jobs.xml" };
             ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);
             JobLauncher jobLauncher = (JobLauncher) context.getBean("jobLauncher");
             Job job = (Job) context.getBean("integratePain008File");
+       
             try {
                 JobExecution execution = jobLauncher.run(job, new JobParametersBuilder().addString("inputFile", input.getName()).toJobParameters());
                 System.out.println("Exit Status : " + execution.getStatus());

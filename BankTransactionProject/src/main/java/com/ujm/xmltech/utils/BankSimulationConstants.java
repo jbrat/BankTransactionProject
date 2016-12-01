@@ -22,7 +22,7 @@ public class BankSimulationConstants {
   /**
    * must contain only 4 upper case letters. Real example : BNPP
    */
-  public final String MY_BANK_IDENTIFIER = "JAKY";
+  public static final String MY_BANK_IDENTIFIER = "JAKY";
 
   /**
    * persistence unit name in the spring configuration

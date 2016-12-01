@@ -40,8 +40,14 @@
 		<bat:step id="readFile" next="moveToArchive">
 			<bat:tasklet ref="xmlItemReader" />
 		</bat:step>
-		<bat:step id="moveToArchive">
+		<bat:step id="moveToArchive" next="writeReport">
 			<bat:tasklet ref="moveToArchiveTasklet" />
+		</bat:step>
+                <bat:step id="writeReport" next="FileWrite">
+                    <bat:tasklet ref="xmlFileItemWriter" />
+		</bat:step>
+                <bat:step id="FileWrite">
+                    <bat:tasklet ref="xmlFileWrite" />
 		</bat:step>
 	</bat:job>
 
@@ -58,5 +64,5 @@
 	<bean id="itemProcessor" class="com.ujm.xmltech.tasklet.Pain008Processor" scope="step" />
 	<bean id="xmlFileItemWriter" class="com.ujm.xmltech.tasklet.Pain008Writer" scope="step" />
 	<bean id="moveToArchiveTasklet" class="com.ujm.xmltech.tasklet.MoveToArchive" />
-
+        <bean id="xmlFileWrite" class="com.ujm.xmltech.tasklet.FileWrite" scope="step" />
 </beans>
