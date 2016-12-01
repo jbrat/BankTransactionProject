@@ -64,6 +64,7 @@ public class Pain008Reader implements Tasklet {
             while (it.hasNext()) {
                 PaymentInstructionInformation4 transaction = it.next();
                 String codeErreur = "RJ111"; // CODE OK
+                
                 try {
                     validateTransaction.ValidateTransaction(transaction);
                 } catch(UnitaryException e) {

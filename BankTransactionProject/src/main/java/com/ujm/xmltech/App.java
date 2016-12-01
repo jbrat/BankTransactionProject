@@ -17,7 +17,7 @@ public class App {
     public void launch() {
         
         File input = FileManagementUtils.retrieveFileToProcess();
-       
+
         if (input != null) {
             String[] springConfig = { "spring/batch/jobs/jobs.xml" };
             ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);
