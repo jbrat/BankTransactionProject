@@ -51,12 +51,6 @@
 		</bat:step>
 	</bat:job>
 
-	<!--  <bat:job id="writePain008Report">
-		<bat:step id="writeReport">
-			<bat:tasklet ref="xmlFileItemWriter" />
-		</bat:step>
-	</bat:job>  -->
-
         <bean id="notifyReadTasklet" class="com.ujm.xmltech.tasklet.NotifyReadTasklet" />
 	<bean id="moveToWorkTasklet" class="com.ujm.xmltech.tasklet.MoveToWork" />
 	<bean id="validateFileTasklet" class="com.ujm.xmltech.tasklet.Pain008Checker" />
