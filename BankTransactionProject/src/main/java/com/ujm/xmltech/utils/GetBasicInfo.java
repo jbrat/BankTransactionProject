@@ -129,4 +129,38 @@ public class GetBasicInfo {
     public static String getMandatory(PaymentInstructionInformation4 pmtInstr){
         return pmtInstr.getPmtMtd().toString();
     }
+    
+    /**
+     * Method to get the amount of one Transaction
+     * 
+     * @param pmtInstr
+     * 
+     * @return BigDecimal the total amount
+     */
+    public static BigDecimal getPaymentsTransaction(PaymentInstructionInformation4 pmtInstr){
+        BigDecimal amount= new BigDecimal("0");
+         List<DirectDebitTransactionInformation9> drctDbtTxInf = pmtInstr.getDrctDbtTxInf();
+        for(int i=0; i< drctDbtTxInf.size(); i++) {
+            DirectDebitTransactionInformation9 d = drctDbtTxInf.get(i);
+            amount.add(d.getInstdAmt().getValue());
+        }
+        return amount;
+    }
+    
+    
+    /**
+     * Method to get totalPayment in the file
+     * 
+     * @param stmrDrctDbtInitn 
+     * 
+     * @return BigDecimal the total amount
+     */
+    public static BigDecimal getAllPayments(CustomerDirectDebitInitiationV02 stmrDrctDbtInitn){
+        BigDecimal totalAmount= new BigDecimal("0");
+        List<PaymentInstructionInformation4> pmtinstr=stmrDrctDbtInitn.getPmtInf();
+        for(PaymentInstructionInformation4 pmtInstr: pmtinstr){
+            totalAmount.add(GetBasicInfo.getPaymentsTransaction(pmtInstr));     
+        }
+        return totalAmount;
+    }
 }
