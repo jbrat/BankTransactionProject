@@ -5,22 +5,59 @@ import com.ujm.xmltech.entity.Transaction;
 import java.util.List;
 
 /**
- *
- * @author julien
+ * Transaction DAO to persist in Database
+ * 
+ * @author UJM's students
  */
 public interface TransactionDao {
    
+    /**
+     * Method to persist a filePain008 in database
+     * 
+     * @param file 
+     */
     void createFile(FilePain008 file);
 
+    /**
+     * Method to persist a transaction 
+     * 
+     * @param transaction
+     * 
+     * @return the created transaction
+     */
     Transaction createTransaction(Transaction transaction);
 
-    FilePain008 findFileByName(String name);
-
+    /**
+     * Method to find a transaction by an ID
+     * 
+     * @param id
+     * 
+     * @return the created Transaction
+     */
     Transaction findTransactionById(long id);
     
+    /**
+     * Method to get a list of filePain008
+     * 
+     * @return List FilePain008 
+     */
     List<FilePain008> getFilesPain008();
 
+    /**
+     * Method to get a List of transactions by a file MsgId
+     * 
+     * @param msgId
+     * 
+     * @return List Transaction
+     */
     List<Transaction> getTransactionsByFileMsgId(String msgId);
     
+    /**
+     * Method to delete a Transaction from an ID
+     * 
+     * @param id
+     * 
+     * @return Transaction
+     */
     Transaction deleteTransaction(long id);
 }

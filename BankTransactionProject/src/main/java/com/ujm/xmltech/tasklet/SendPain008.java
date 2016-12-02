@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ujm.xmltech.tasklet;
 
 import com.ujm.xmltech.sockets.FileSender;
@@ -23,6 +18,7 @@ public class SendPain008 implements Tasklet{
     @Override
     public RepeatStatus execute(StepContribution sc, ChunkContext cc) throws Exception {
         
+        // Foreach on out put files and send it
         File folder = new File(BankSimulationConstants.IN_DIRECTORY);
         for (File file : folder.listFiles()) {
             FileSender fileSender = new FileSender(file);

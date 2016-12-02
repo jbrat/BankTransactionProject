@@ -14,7 +14,9 @@ import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
- *
+ * Class Validation for input pain008 informations
+ * 
+ * @author UJM's students
  */
 public class ValidateTransaction {
     
@@ -24,7 +26,14 @@ public class ValidateTransaction {
         this.stmrDrctDbtInitn = stmrDrctDbtInitn;
     }
     
-    //General method that call the different Unitary test followings
+    /**
+     * General method that call the different Unitary test followings
+     * 
+     * @param pmtInstr
+     * 
+     * @throws UnitaryException
+     * @throws DatatypeConfigurationException 
+     */
     public void ValidateTransaction(PaymentInstructionInformation4 pmtInstr) throws UnitaryException, DatatypeConfigurationException{
         IbanExist(stmrDrctDbtInitn);
         LessThan1(pmtInstr);
@@ -35,7 +44,13 @@ public class ValidateTransaction {
     }
     
     
-        // Check If Iban exist
+    /**
+     * Method to check if iban exist
+     * 
+     * @param stmrDrctDbtInitn
+     * 
+     * @throws UnitaryException 
+     */
     private void IbanExist(CustomerDirectDebitInitiationV02 stmrDrctDbtInitn) throws UnitaryException{
         String IBAN= stmrDrctDbtInitn.getGrpHdr().getMsgId();
         String Bank= StringUtils.substring(IBAN, 0, 4);
@@ -44,7 +59,13 @@ public class ValidateTransaction {
         }
     }
     
-    //Amount <1, reject transaction
+    /**
+     * Method to reject transaction when amount < 1
+     * 
+     * @param pmtInstr
+     * 
+     * @throws UnitaryException 
+     */
     private void LessThan1(PaymentInstructionInformation4 pmtInstr) throws UnitaryException {
 
         List<DirectDebitTransactionInformation9> drctDbtTxInf = pmtInstr.getDrctDbtTxInf();
@@ -57,8 +78,13 @@ public class ValidateTransaction {
         }
     }
     
-      
-    //Amount > 10 000, reject transaction
+    /**
+     * Method to reject transaction when amount > 10000
+     * 
+     * @param pmtInstr
+     * 
+     * @throws UnitaryException 
+     */
     private void BiggerThan10k(PaymentInstructionInformation4 pmtInstr) throws UnitaryException {
  
         List<DirectDebitTransactionInformation9> drctDbtTxInf = pmtInstr.getDrctDbtTxInf();
@@ -71,26 +97,41 @@ public class ValidateTransaction {
         }
     }
 
-    
-    
-    // Check If the currency is correct
+    /**
+     * Method to check If the currency is correct
+     * 
+     * @param pmtInstr
+     * 
+     * @throws UnitaryException 
+     */
     private void CurrencyIsCorrect(PaymentInstructionInformation4 pmtInstr) throws UnitaryException{
         if(GetBasicInfo.getCurrrency(pmtInstr).compareTo("EUR")!=0) {
             throw new UnitaryException("RCJ003");
         }
     }
     
-    
-    
-    //Check if the transaction isn't in the past
+    /**
+     * Method to check if the transaction isn't in the pasts
+     * 
+     * @param pmtInstr
+     * 
+     * @throws UnitaryException
+     * @throws DatatypeConfigurationException 
+     */
     private void CheckIfTransactionIsntHasBeen(PaymentInstructionInformation4 pmtInstr) throws UnitaryException, DatatypeConfigurationException{       
-            if(GetBasicInfo.getTodayDate().compare(GetBasicInfo.getDatePayment(pmtInstr)) ==-1) {
-                throw new UnitaryException("RCJ004");
-            }
+        if(GetBasicInfo.getTodayDate().compare(GetBasicInfo.getDatePayment(pmtInstr)) ==-1) {
+            throw new UnitaryException("RCJ004");
+        }
     }
     
-    
-    //Check that the transaction isn't in more than 13month
+    /**
+     * Method to check that the transaction isn't in more than 13month
+     * 
+     * @param pmtInstr
+     * 
+     * @throws DatatypeConfigurationException
+     * @throws UnitaryException 
+     */
     private void CheckIfTransactionIsInMoreThan13Month(PaymentInstructionInformation4 pmtInstr) throws DatatypeConfigurationException, UnitaryException{
         
         //Add 13month to TodayDate
@@ -103,8 +144,14 @@ public class ValidateTransaction {
         }
     }
     
-    
-    //Check that the SeqTP isn't RCUR and the date of the payment isn't in less than 2 days
+    /**
+     * method to check that the SeqTP isn't RCUR and the date of the payment isn't in less than 2 day
+     * 
+     * @param pmtInstr
+     * 
+     * @throws DatatypeConfigurationException
+     * @throws UnitaryException 
+     */
     private void CheckSeqTPIsntRCURandDateLessT2Days(PaymentInstructionInformation4 pmtInstr) throws DatatypeConfigurationException, UnitaryException{
         DatatypeFactory df= DatatypeFactory.newInstance();
         XMLGregorianCalendar today= GetBasicInfo.getTodayDate();
@@ -117,7 +164,14 @@ public class ValidateTransaction {
     }
     
     
-    //Check that the SeqTP isn't FRST and the date of the payment isn't in less than 5 days
+    /**
+     * Method to check that the SeqTP isn't FRST and the date of the payment isn't in less than 5 days
+     * 
+     * @param pmtInstr
+     * 
+     * @throws DatatypeConfigurationException
+     * @throws UnitaryException 
+     */
      private void CheckSeqTPIsntFRSTRandDateLessT5Days(PaymentInstructionInformation4 pmtInstr) throws DatatypeConfigurationException, UnitaryException{
         DatatypeFactory df= DatatypeFactory.newInstance();
         XMLGregorianCalendar today=GetBasicInfo.getTodayDate();

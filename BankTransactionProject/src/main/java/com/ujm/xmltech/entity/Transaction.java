@@ -8,7 +8,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Class to persist the Transactions in database
+ * Class model to persist the Transactions in database
+ * 
+ * @author UJM's students
  */
 @Entity
 public class Transaction implements Serializable {

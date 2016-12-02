@@ -11,9 +11,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.ujm.xmltech.utils.FileManagementUtils;
 
+/**
+ * Main class of the project
+ * 
+ * @author UJM's students
+ */
 public class App {
 
-    //TP scheduler
+    /**
+     * Method to launch the project
+     */
     public void launch() {
         
         File input = FileManagementUtils.retrieveFileToProcess();

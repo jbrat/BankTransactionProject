@@ -18,6 +18,11 @@ public class FileSender extends Thread {
     private File fileToSend;
     private InetAddress ipAddress;
 
+    /**
+     * Initialize the sender with the input File
+     * 
+     * @param fileToSend 
+     */
     public FileSender(File fileToSend) {
         this.fileToSend = fileToSend;
         try{
@@ -31,14 +36,27 @@ public class FileSender extends Thread {
         start();
     }
 
+    /**
+     * Method to get ip Address
+     * 
+     * @return InetAddress 
+     */
     public InetAddress getIpAddress() {
         return ipAddress;
     }
 
+    /**
+     * Method to setIpAddress
+     * 
+     * @param ipAddress 
+     */
     public void setIpAddress(InetAddress ipAddress) {
         this.ipAddress = ipAddress;
     }
 
+    /**
+     * Method to run the thread
+     */
     public void run() {
         try{
             socket = socketListener.accept();

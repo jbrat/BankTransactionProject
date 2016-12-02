@@ -6,11 +6,21 @@ import iso.std.iso._20022.tech.xsd.pain_008_001.DirectDebitTransactionInformatio
 import iso.std.iso._20022.tech.xsd.pain_008_001.PaymentInstructionInformation4;
 
 /**
- *
- * @author julien
+ * Pattern Factory to load a Transaction with Pain008 entry informations
+ * 
+ * @author UJM's students
  */
 public class TransactionFactory {
     
+    /**
+     * Mehod static to load a Transaction
+     * 
+     * @param file
+     * @param infoTransaction
+     * @param transaction008
+     * 
+     * @return newTransaction
+     */
     public static Transaction createTransaction(String file, 
             DirectDebitTransactionInformation9 infoTransaction, 
             PaymentInstructionInformation4 transaction008) {

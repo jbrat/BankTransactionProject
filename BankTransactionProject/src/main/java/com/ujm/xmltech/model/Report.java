@@ -10,6 +10,11 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import com.ujm.xmltech.adapter.JaxbDateAdapter;
 
+/**
+ * Class model to do a report 
+ * 
+ * @author UJM's students
+ */
 @XmlRootElement(name = "record")
 public class Report {
 

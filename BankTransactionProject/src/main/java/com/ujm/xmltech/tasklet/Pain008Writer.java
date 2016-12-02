@@ -21,6 +21,11 @@ import org.springframework.batch.repeat.RepeatStatus;
 
 import com.ujm.xmltech.utils.BankSimulationConstants;
 
+/**
+ * Class Writer to write a report
+ * 
+ * @author UJM's students
+ */
 public class Pain008Writer implements Tasklet {
 
 	@Override
@@ -31,33 +36,33 @@ public class Pain008Writer implements Tasklet {
 	}
 
 	public void write(Object item) {
-		//Added a random in order to have a different file each time
-		File file = new File(BankSimulationConstants.OUT_DIRECTORY + "report" + Math.random() + ".xml");
-		OutputStream out;
-		try {
-			out = new FileOutputStream(file);
-			OutputStreamWriter writer = new OutputStreamWriter(out);
-			JAXBContext ctx = JAXBContext.newInstance(item.getClass());
-			Marshaller marshaller = ctx.createMarshaller();
-			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-			marshaller.setProperty("jaxb.fragment", Boolean.TRUE);
-			//writer file header
-			String documentBase = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.008.001.02\">\n";
-			writer.write(documentBase);
-			//write header item
-			writer.write(getXMLFragment(item, "CstmrDrctDbtInitn", marshaller) + "\n");
-			//write footer
-			String documentEnd = "\n</Document>";
-			writer.write(documentEnd);
-			writer.close();
-			out.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (JAXBException e) {
-			e.printStackTrace();
-		}
+            //Added a random in order to have a different file each time
+            File file = new File(BankSimulationConstants.OUT_DIRECTORY + "report" + Math.random() + ".xml");
+            OutputStream out;
+            try {
+                out = new FileOutputStream(file);
+                OutputStreamWriter writer = new OutputStreamWriter(out);
+                JAXBContext ctx = JAXBContext.newInstance(item.getClass());
+                Marshaller marshaller = ctx.createMarshaller();
+                marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+                marshaller.setProperty("jaxb.fragment", Boolean.TRUE);
+                //writer file header
+                String documentBase = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.008.001.02\">\n";
+                writer.write(documentBase);
+                //write header item
+                writer.write(getXMLFragment(item, "CstmrDrctDbtInitn", marshaller) + "\n");
+                //write footer
+                String documentEnd = "\n</Document>";
+                writer.write(documentEnd);
+                writer.close();
+                out.close();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (JAXBException e) {
+                e.printStackTrace();
+            }
 	}
 
 	/**
@@ -66,21 +71,22 @@ public class Pain008Writer implements Tasklet {
 	 * @param object
 	 * @param name
 	 * @param marshaller
-	 * @return
+         * 
+	 * @return String fragments
 	 */
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private String getXMLFragment(Object object, String name, Marshaller marshaller) {
-		StringWriter writer = new StringWriter();
-		try {
-			marshaller.marshal(new JAXBElement(new QName("", name, ""), object.getClass(), object), writer);
-		} catch (JAXBException e) {
-			return null;
-		}
-		String originFragment = writer.toString();
-		String fragment = originFragment.replaceAll("<" + name + ".*>", "<" + name + ">").replaceAll("<ns2:", "<").replaceAll("</ns2:", "</");
-		fragment = fragment.replaceAll("&quot;", "\"").replaceAll("&apos;", "\'");
+            StringWriter writer = new StringWriter();
+            try {
+                marshaller.marshal(new JAXBElement(new QName("", name, ""), object.getClass(), object), writer);
+            } catch (JAXBException e) {
+                return null;
+            }
+            String originFragment = writer.toString();
+            String fragment = originFragment.replaceAll("<" + name + ".*>", "<" + name + ">").replaceAll("<ns2:", "<").replaceAll("</ns2:", "</");
+            fragment = fragment.replaceAll("&quot;", "\"").replaceAll("&apos;", "\'");
 
-		return fragment;
+            return fragment;
 	}
 
 }

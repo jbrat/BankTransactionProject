@@ -12,12 +12,24 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * DAO Implementation for repository TransactionDAO
+ * 
+ * @author UJM's students
+ */
 @Repository("TransactionDao")
 public class TransactionDaoImpl implements TransactionDao {
 
     @PersistenceContext(unitName = BankSimulationConstants.PERSISTENCE_UNIT)
     protected EntityManager entityManager;
-
+    
+    /**
+     * Method to persist a transaction 
+     * 
+     * @param transaction
+     * 
+     * @return the created transaction
+     */
     @Override
     @Transactional(propagation = Propagation.REQUIRES_NEW, value = BankSimulationConstants.TRANSACTION_MANAGER)
     public Transaction createTransaction(Transaction transaction) {
@@ -26,40 +38,62 @@ public class TransactionDaoImpl implements TransactionDao {
         return transaction;
     }
 
+    /**
+     * Method to find a transaction by an ID
+     * 
+     * @param id
+     * 
+     * @return the created Transaction
+     */
     @Override
     public Transaction findTransactionById(long id) {
         Query query = entityManager.createQuery("SELECT t FROM Transaction t WHERE t.id = :id").setParameter("id", id);
         return (Transaction) query.getSingleResult();
     }
 
-    @Override
-    public FilePain008 findFileByName(String msgId) {
-        Query query = entityManager.createQuery("SELECT f FROM FilePain008 f WHERE f.MsgId = :MsgId").setParameter("MsgId", msgId);
-        try {
-            return (FilePain008) query.getSingleResult();
-        } catch (Exception e) {
-            return null;
-        }
-    }
-
+    /**
+     * Method to persist a filePain008 in database
+     * 
+     * @param file 
+     */
     @Override
     @Transactional(propagation = Propagation.REQUIRES_NEW, value = BankSimulationConstants.TRANSACTION_MANAGER)
     public void createFile(FilePain008 file) {
         entityManager.persist(file);
     }
     
+    /**
+     * Method to get a list of filePain008
+     * 
+     * @return List FilePain008 
+     */
     @Override
     public List<FilePain008> getFilesPain008() {
         Query query = entityManager.createQuery("SELECT * FROM FilePain008 f WHERE f.msgId <> :MsgId").setParameter("MsgId", BankSimulationConstants.MY_BANK_IDENTIFIER);
         return query.getResultList();
     }
     
+        
+    /**
+     * Method to delete a Transaction from an ID
+     * 
+     * @param id
+     * 
+     * @return Transaction
+     */
     @Override
     public Transaction deleteTransaction(long id) {
         Query query = entityManager.createQuery("DELETE FROM Transaction where id = :id").setParameter("id", id);
         return (Transaction) query.getResultList();
     }
 
+    /**
+     * Method to get a List of transactions by a file MsgId
+     * 
+     * @param msgId
+     * 
+     * @return List Transaction
+     */
     @Override
     public List<Transaction> getTransactionsByFileMsgId(String msgId) {
         Query query = entityManager.createQuery("SELECT * FROM Transaction WHERE fileMsgId = :MsgId").setParameter("MsgId", msgId);

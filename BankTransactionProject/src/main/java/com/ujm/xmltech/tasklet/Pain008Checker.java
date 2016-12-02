@@ -17,6 +17,11 @@ import org.xml.sax.SAXException;
 
 import com.ujm.xmltech.utils.BankSimulationConstants;
 
+/**
+ * Class to check if the pain008 is correctly checked
+ * 
+ * @author UJM's students
+ */
 public class Pain008Checker implements Tasklet {
 
     public boolean checkFile(String fileName) {
@@ -30,11 +35,9 @@ public class Pain008Checker implements Tasklet {
             Validator validator = schema.newValidator();
             validator.validate(new StreamSource(fileToValidate));
         } catch (SAXException e) {
-            System.out.println(e.getMessage());
             e.printStackTrace();
             return false;
         } catch (IOException e) {
-            System.out.println(e.getMessage());
             e.printStackTrace();
             return false;
         }

@@ -7,7 +7,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Class to persist a file pain008 in database
+ * Class model to persist a file pain008 in database
+ * 
+ * @author UJM's students
  */
 @Entity
 public class FilePain008 implements Serializable {

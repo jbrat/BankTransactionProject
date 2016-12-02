@@ -1,8 +1,9 @@
 package com.ujm.xmltech.utils;
 
 /**
- * list of banks managed by the other groups (must contains 4 letters for each one)
+ * List of banks managed by the other groups (must contains 4 letters for each one)
  * 
+ * @author UJM's students
  */
 public enum Banks {
 
@@ -29,5 +30,4 @@ public enum Banks {
         }
         return false;
     }
-
 }

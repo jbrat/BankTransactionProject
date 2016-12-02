@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ujm.xmltech.services.impl;
 
 import com.ujm.xmltech.dao.TransactionDao;
@@ -18,23 +13,38 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- *
- * @author julien
+ * Implement class for Transaction Service
+ * 
+ * @author UJM's students
  */
-
 @Service("TransactionService")
 public class TransactionServiceImpl implements TransactionService {
 
+    /**
+     * Injection of the DAO transaction service
+     */
     @Autowired
     private TransactionDao transactionDAO;
+
+    private String filePain008;
     
+    /**
+     * Method to get a transaction by Id from DAO
+     * 
+     * @param id
+     * 
+     * @return Transaction
+     */
     @Override
     public Transaction getTransactionById(long id) {
         return (Transaction)transactionDAO.findTransactionById(id);
     }
     
-    private String filePain008;
-    
+    /**
+     * Method to create a filePain008 in DAO
+     * 
+     * @param file 
+     */
     @Override
     public void createFilePain008(FilePain008 file) {
         this.filePain008 = file.getMsgId();
@@ -42,9 +52,10 @@ public class TransactionServiceImpl implements TransactionService {
     }
     
     /**
-     * Method to parse a transaction into model transaction and save it
+     * Method to parse a Transaction with a pain008 input informations
      * 
-     * @param transaction008 
+     * @param transaction008
+     * @param codeErreur 
      */
     @Override
     public void parseTransaction(PaymentInstructionInformation4 transaction008, String codeErreur) {
@@ -62,21 +73,37 @@ public class TransactionServiceImpl implements TransactionService {
         }
     }  
 
+    /**
+     * Method to get the files Pain008 from DAO
+     * 
+     * @return List FilePain008
+     */
     @Override
     public List<FilePain008> getFilesPain008() {
         return transactionDAO.getFilesPain008();
     }
 
+    /**
+     * Method to get a list of Transactions by an MsgId
+     * 
+     * @param msgId
+     * 
+     * @return List Transaction
+     */
     @Override
     public List<Transaction> getTransactionsByFileMsgId(String msgId) {
-       return transactionDAO.getTransactionsByFileMsgId(msgId);
+        return transactionDAO.getTransactionsByFileMsgId(msgId);
     }
 
+    /**
+     * Method to delete a transaction from DAO with an ID
+     * 
+     * @param id
+     * 
+     * @return deleted Transaction 
+     */
     @Override
     public Transaction deleteTransaction(long id) {
         return transactionDAO.deleteTransaction(id);
     }
-
-  
-    
 }

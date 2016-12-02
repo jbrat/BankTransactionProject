@@ -28,11 +28,22 @@ import com.ujm.xmltech.utils.BankSimulationConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.ujm.xmltech.validator.ValidateTransaction;
 
+/**
+ * Method to read the pain008 file 
+ * 
+ * @author UJM' students
+ */
 public class Pain008Reader implements Tasklet {
 
+    /**
+     * Inject the transaction service for interact with DAO
+     */
     @Autowired
     private TransactionService serviceTransaction;
     
+    /**
+     * Validation class for pain008 informations
+     */
     private ValidateTransaction validateTransaction;
     
     @Override

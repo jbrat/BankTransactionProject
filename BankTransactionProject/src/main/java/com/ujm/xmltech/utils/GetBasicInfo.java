@@ -25,9 +25,7 @@ public class GetBasicInfo {
     */    
     public static String getCreditorIban(PaymentInstructionInformation4 pmtInstr) {
         return pmtInstr.getCdtrAgtAcct().getId().getIBAN();
-    }   
-
-    
+    }      
     
     /**
     * Get the Debitors' IBAN from process
@@ -39,9 +37,7 @@ public class GetBasicInfo {
     public static String getDebitorIban(PaymentInstructionInformation4 pmtInstr) {
         return fillDebitorsIbans(pmtInstr).get(0);
     } 
-    
-    
-    
+      
     /**
      * Fill the Debitors' IBANs from process
      * 
@@ -59,8 +55,6 @@ public class GetBasicInfo {
         return ibans_debitor;
     }
     
-    
-    
     /**
      * Method to get the checkSum of a transaction
      * 
@@ -71,8 +65,6 @@ public class GetBasicInfo {
     public static BigDecimal getChecksumTransaction(PaymentInstructionInformation4 pmtInstr) {
         return pmtInstr.getCtrlSum();
     }
-    
-    
     
     /**
      * Method to get the checkSum of the total pain008 file
@@ -85,9 +77,7 @@ public class GetBasicInfo {
         return ctmrDrctDbtInitn.getGrpHdr().getCtrlSum();   
     }
     
-    
-    
-     /**
+    /**
      * Method to get the Currency of the Transaction
      * 
      * @param pmtInstr 
@@ -98,9 +88,7 @@ public class GetBasicInfo {
         return pmtInstr.getDrctDbtTxInf().get(1).getInstdAmt().getCcy();
     }
     
-    
-    
-     /**
+    /**
      * Method to get the payment date.
      * 
      * @param pmtInstr 
@@ -111,9 +99,7 @@ public class GetBasicInfo {
         return pmtInstr.getReqdColltnDt();
     }
     
-    
-       
-     /**
+    /**
      * Method to get today date.
      * 
      * @return ccy the currency
@@ -122,9 +108,7 @@ public class GetBasicInfo {
             return DatatypeFactory.newInstance().newXMLGregorianCalendar(new DateTime().toGregorianCalendar());
         }
     
-    
-    
-     /**
+    /**
      * Method to get the SeqTp
      * 
      * @param pmtInstr
@@ -134,7 +118,6 @@ public class GetBasicInfo {
     public static String getSeqTP(PaymentInstructionInformation4 pmtInstr){
         return pmtInstr.getPmtTpInf().getSeqTp().toString();
     }
-    
     
     /**
      * Method to get mandatory information

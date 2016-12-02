@@ -1,11 +1,9 @@
 package com.ujm.xmltech.tasklet;
 
-import com.ujm.xmltech.dao.impl.TransactionDaoImpl;
 import com.ujm.xmltech.entity.FilePain008;
 import com.ujm.xmltech.entity.Transaction;
 import com.ujm.xmltech.services.TransactionService;
 import com.ujm.xmltech.utils.BankSimulationConstants;
-import iso.std.iso._20022.tech.xsd.pain_008_001.CustomerDirectDebitInitiationV02;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -29,10 +27,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * class FileWrite to generate a pain008 for the others banks.
+ * 
+ * @author UJM's students
  */
 public class FileWrite implements Tasklet{
-    /*
-     * Transaction data.
+
+    /**
+     * Injection service transaction to persist with DAO
      */
     @Autowired
     private TransactionService serviceTransaction;
@@ -140,7 +141,7 @@ public class FileWrite implements Tasklet{
                     writer.write(slev);
                     writer.write("\n<slev>\n");
                     
-                    /* Delete database */
+                    /* Delete transaction */
                     serviceTransaction.deleteTransaction(transaction.getId());
                 }
                 writer.write(XMLPAIN008Transactions);
@@ -167,21 +168,21 @@ public class FileWrite implements Tasklet{
      * @param object
      * @param name
      * @param marshaller
-     * @return
+     * 
+     * @return String fragment
      */
     @SuppressWarnings({ "unchecked", "rawtypes" })
     private String getXMLFragment(Object object, String name, Marshaller marshaller) {
-            StringWriter writer = new StringWriter();
-            try {
-                    marshaller.marshal(new JAXBElement(new QName("", name, ""), object.getClass(), object), writer);
-            } catch (JAXBException e) {
-                    return null;
-            }
-            String originFragment = writer.toString();
-            String fragment = originFragment.replaceAll("<" + name + ".*>", "<" + name + ">").replaceAll("<ns2:", "<").replaceAll("</ns2:", "</");
-            fragment = fragment.replaceAll("&quot;", "\"").replaceAll("&apos;", "\'");
+        StringWriter writer = new StringWriter();
+        try {
+            marshaller.marshal(new JAXBElement(new QName("", name, ""), object.getClass(), object), writer);
+        } catch (JAXBException e) {
+            return null;
+        }
+        String originFragment = writer.toString();
+        String fragment = originFragment.replaceAll("<" + name + ".*>", "<" + name + ">").replaceAll("<ns2:", "<").replaceAll("</ns2:", "</");
+        fragment = fragment.replaceAll("&quot;", "\"").replaceAll("&apos;", "\'");
 
-            return fragment;
+        return fragment;
     }
-
 }
