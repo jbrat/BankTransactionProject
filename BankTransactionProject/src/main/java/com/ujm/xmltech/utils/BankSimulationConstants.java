@@ -5,19 +5,19 @@ public class BankSimulationConstants {
   /**
    * Directory where are files to process
    */
-  public final static String IN_DIRECTORY = System.getProperty("user.dir")+"/../../BankTransactionProject/folders/in/";
+  public final static String IN_DIRECTORY = "/home/julien/Documents/Master/DocumentNumerique/BankSimulator/folders/in/";
   /**
    * Directory where are reports
    */
-  public final static String OUT_DIRECTORY = System.getProperty("user.dir")+"/../../BankTransactionProject/folders/out/";
+  public final static String OUT_DIRECTORY = "/home/julien/Documents/Master/DocumentNumerique/BankSimulator/folders/out/";
   /**
    * Directory where are files under process
    */
-  public final static String WORK_DIRECTORY = System.getProperty("user.dir")+"/../../BankTransactionProject/folders/work/";
+  public final static String WORK_DIRECTORY = "/home/julien/Documents/Master/DocumentNumerique/BankSimulator/folders/work/";
   /**
    * Directory where are files already processed
    */
-  public final static String ARCHIVE_DIRECTORY = System.getProperty("user.dir")+"/../../BankTransactionProject/folders/archive/";
+  public final static String ARCHIVE_DIRECTORY = "/home/julien/Documents/Master/DocumentNumerique/BankSimulator/folders/archive/";
 
   /**
    * must contain only 4 upper case letters. Real example : BNPP

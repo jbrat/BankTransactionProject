@@ -44,13 +44,13 @@ public interface TransactionService {
     List<FilePain008> getFilesPain008();
     
     /**
-     * Method to get a list of Transactions by an MsgId
+     * Method to get a list of Transactions by an idBank
      * 
-     * @param msgId
+     * @param idBank
      * 
      * @return List Transaction
      */
-    List<Transaction> getTransactionsByFileMsgId(String msgId);
+    List<Transaction> getTransactionsByidBank(String idBank);
     
     
     /**

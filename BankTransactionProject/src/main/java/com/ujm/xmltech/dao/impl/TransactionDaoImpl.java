@@ -88,15 +88,15 @@ public class TransactionDaoImpl implements TransactionDao {
     }
 
     /**
-     * Method to get a List of transactions by a file MsgId
+     * Method to get a List of transactions by a file idBank
      * 
-     * @param msgId
+     * @param idBank
      * 
      * @return List Transaction
      */
     @Override
-    public List<Transaction> getTransactionsByFileMsgId(String msgId) {
-        Query query = entityManager.createQuery("SELECT * FROM Transaction WHERE fileMsgId = :MsgId").setParameter("MsgId", msgId);
+    public List<Transaction> getTransactionsByidBank(String idBank) {
+        Query query = entityManager.createQuery("SELECT * FROM Transaction WHERE idBank = :idBank").setParameter("idBank", idBank);
         return query.getResultList();
     }
 }

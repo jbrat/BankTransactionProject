@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+<CstmrDrctDbtInitn>
+<GrpHdr>
+    <MsgId>myGeneratedFile1419601206666</MsgId>
+    <CreDtTm>2016-11-26T14:40:06</CreDtTm>
+    <NbOfTxs>20</NbOfTxs>
+    <CtrlSum>2000</CtrlSum>
+    <InitgPty>
+        <Nm>DelaunayCreditor</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+        <CtctDtls>
+            <Nm>DelaunayCreditor</Nm>
+            <EmailAdr>creditor@mail.com</EmailAdr>
+        </CtctDtls>
+    </InitgPty>
+</GrpHdr>
+<PmtInf>
+    <PmtInfId>1</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2016-12-12</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCreditor</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-00</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-00</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-01</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-01</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-02</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-02</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-03</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-03</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-04</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-04</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-05</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-05</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-06</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-06</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-07</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-07</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-08</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-08</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-09</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-09</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+<PmtInf>
+    <PmtInfId>2</PmtInfId>
+    <PmtMtd>DD</PmtMtd>
+    <ReqdColltnDt>2016-12-12</ReqdColltnDt>
+    <Cdtr>
+        <Nm>DelaunayCreditor</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Cdtr>
+    <CdtrAcct>
+        <Id>
+            <IBAN>FR9999999999999999999999999</IBAN>
+        </Id>
+    </CdtrAcct>
+    <CdtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPRIG</BIC>
+        </FinInstnId>
+    </CdtrAgt>
+    <CdtrSchmeId>
+        <Id>
+            <PrvtId>
+                <Othr>
+                    <Id>FR26ZZZ66666</Id>
+                    <SchmeNm>
+                        <Prtry>SEPA</Prtry>
+                    </SchmeNm>
+                </Othr>
+            </PrvtId>
+        </Id>
+    </CdtrSchmeId>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-10</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-10</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-11</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-11</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-12</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-12</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-13</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-13</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-14</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-14</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-15</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-15</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-16</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-16</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-17</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-17</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-18</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-18</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+<DrctDbtTxInf>
+    <PmtId>
+        <EndToEndId>JAKYE2E-19</EndToEndId>
+    </PmtId>
+    <PmtTpInf>
+        <InstrPrty>NORM</InstrPrty>
+        <SeqTp>FRST</SeqTp>
+    </PmtTpInf>
+    <InstdAmt Ccy="EUR">100</InstdAmt>
+    <ChrgBr>SLEV</ChrgBr>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>JAKYUMR-19</MndtId>
+            <DtOfSgntr>2016-11-26</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>JAKYFRPPXXX</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Monsieur tout le monde</Nm>
+        <PstlAdr>
+            <StrtNm>Bd Vivier Merle</StrtNm>
+            <TwnNm>Lyon</TwnNm>
+            <Ctry>FR</Ctry>
+        </PstlAdr>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>FR0000000000000000000000000</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>
+        <Ustrd>Remitance Info</Ustrd>
+    </RmtInf>
+</DrctDbtTxInf>
+</PmtInf>
+</CstmrDrctDbtInitn>
+</Document>

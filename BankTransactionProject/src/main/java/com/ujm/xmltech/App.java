@@ -24,11 +24,11 @@ public class App {
     public void launch() {
         
         File input = FileManagementUtils.retrieveFileToProcess();
-
+        System.out.println(input.getPath());
         if (input != null) {
             String[] springConfig = { "spring/batch/jobs/jobs.xml" };
             ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);
-            JobLauncher jobLauncher = (JobLauncher) context.getBean("jobLauncher");
+            JobLauncher jobLauncher = (JobLauncher) context.getBean("jobLauncher");       
             Job job = (Job) context.getBean("integratePain008File");
        
             try {

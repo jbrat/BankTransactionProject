@@ -91,8 +91,8 @@ public class TransactionServiceImpl implements TransactionService {
      * @return List Transaction
      */
     @Override
-    public List<Transaction> getTransactionsByFileMsgId(String msgId) {
-        return transactionDAO.getTransactionsByFileMsgId(msgId);
+    public List<Transaction> getTransactionsByidBank(String idBank) {
+        return transactionDAO.getTransactionsByidBank(idBank);
     }
 
     /**

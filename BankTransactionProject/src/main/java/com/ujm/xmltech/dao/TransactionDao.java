@@ -44,13 +44,13 @@ public interface TransactionDao {
     List<FilePain008> getFilesPain008();
 
     /**
-     * Method to get a List of transactions by a file MsgId
+     * Method to get a List of transactions by an idBank
      * 
      * @param msgId
      * 
      * @return List Transaction
      */
-    List<Transaction> getTransactionsByFileMsgId(String msgId);
+    List<Transaction> getTransactionsByidBank(String idBank);
     
     /**
      * Method to delete a Transaction from an ID

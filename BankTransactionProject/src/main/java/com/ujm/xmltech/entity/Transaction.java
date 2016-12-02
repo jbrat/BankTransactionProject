@@ -35,7 +35,7 @@ public class Transaction implements Serializable {
     
     private BigDecimal checksum;
     
-    private String fileMsgId;
+    private String idBank;
     
     private String currency;
     
@@ -73,14 +73,14 @@ public class Transaction implements Serializable {
         return date;
     }
 
-    public String getFileMsgId() {
-        return fileMsgId;
+    public String getIdBank() {
+        return idBank;
     }
 
-    public void setFileMsgId(String fileMsgId) {
-        this.fileMsgId = fileMsgId;
+    public void setIdBank(String idBank) {
+        this.idBank = idBank;
     }
-
+   
     public String getIbanDebitor() {
         return ibanDebitor;
     }

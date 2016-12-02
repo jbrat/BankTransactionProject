@@ -12,22 +12,7 @@
     	http://www.springframework.org/schema/context/spring-context.xsd
     	http://www.springframework.org/schema/task
         http://www.springframework.org/schema/task/spring-task-3.2.xsd">
-
-	<import resource="../config/context.xml" />
-	<import resource="../config/db-context.xml" />
-
-	<context:component-scan base-package="com.ujm.xmltech.services" />
-	<context:component-scan base-package="com.ujm.xmltech.dao" />
-
-	<task:scheduler id="myScheduler" pool-size="10" />
-
-	<task:scheduled-tasks scheduler="myScheduler">
-		<task:scheduled ref="main" method="launch" cron="*/10 * * * * *" />
-	</task:scheduled-tasks>
-
-	<bean id="main" class="com.ujm.xmltech.App" />
-
-        	<bat:job id="integratePain008File">
+	<bat:job id="integratePain008File">
                 <bat:step id="notifyRead" next="moveToWork">
                     <bat:tasklet ref="notifyReadTasklet" />
                 </bat:step>

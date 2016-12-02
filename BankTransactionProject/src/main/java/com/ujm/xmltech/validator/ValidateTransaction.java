@@ -35,7 +35,7 @@ public class ValidateTransaction {
      * @throws DatatypeConfigurationException 
      */
     public void ValidateTransaction(PaymentInstructionInformation4 pmtInstr) throws UnitaryException, DatatypeConfigurationException{
-        ControlChecksumFile();
+        //ControlChecksumFile();
         IbanExist(stmrDrctDbtInitn);
         LessThan1(pmtInstr);
         BiggerThan10k(pmtInstr);
@@ -187,12 +187,13 @@ public class ValidateTransaction {
      
     /**
      * Method to check the checksum of the File
+     * 
      * @throws UnitaryException 
      */
     private void ControlChecksumFile () throws UnitaryException{
         BigDecimal totalamount = GetBasicInfo.getAllPayments(stmrDrctDbtInitn);
-        BigDecimal checksumF=GetBasicInfo.getChecksumFile(stmrDrctDbtInitn);
-        if(totalamount.compareTo(checksumF)!=0) {
+        BigDecimal checksumF= GetBasicInfo.getChecksumFile(stmrDrctDbtInitn);
+        if(totalamount.compareTo(checksumF) != 0) {
             throw new UnitaryException("RJC009");
         }
     }
@@ -208,7 +209,7 @@ public class ValidateTransaction {
     private void ControlChecksumTransaction(PaymentInstructionInformation4 pmtInstr) throws UnitaryException{
         BigDecimal amount=GetBasicInfo.getPaymentsTransaction(pmtInstr);
         BigDecimal checksumT=GetBasicInfo.getChecksumTransaction(pmtInstr);
-        if(amount.compareTo(checksumT)!=0) {
+        if(amount.compareTo(checksumT) != 0) {
            throw new UnitaryException("RJC010");
         }
    }

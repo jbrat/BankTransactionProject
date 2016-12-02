@@ -20,6 +20,7 @@ public class FileManagementUtils {
         for (File file : folder.listFiles()) {
             toReturn = file;
         }
+        
         return toReturn;
     }
 }

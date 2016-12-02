@@ -26,12 +26,12 @@ public class TransactionFactory {
             PaymentInstructionInformation4 transaction008) {
         
         Transaction newTransaction = new Transaction();
-        newTransaction.setFileMsgId(file);
+        newTransaction.setIdBank(GetBasicInfo.getBankNamefromBic(transaction008));
         newTransaction.setAmount(infoTransaction.getInstdAmt().getValue().longValue());
         newTransaction.setEndToEndId(infoTransaction.getPmtId().getEndToEndId());
         newTransaction.setCurrency(infoTransaction.getInstdAmt().getCcy());
         newTransaction.setDate(infoTransaction.getDrctDbtTx().getMndtRltdInf().getDtOfSgntr().toGregorianCalendar().getTime().toGMTString());
-        newTransaction.setIbanCreditor(GetBasicInfo.getCreditorIban(transaction008));
+        //newTransaction.setIbanCreditor(GetBasicInfo.getCreditorIban(transaction008));
         newTransaction.setIbanDebitor(GetBasicInfo.getDebitorIban(transaction008));
         newTransaction.setChecksum(GetBasicInfo.getChecksumTransaction(transaction008));
         

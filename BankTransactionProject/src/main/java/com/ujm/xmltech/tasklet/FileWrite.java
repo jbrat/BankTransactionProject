@@ -1,9 +1,10 @@
 package com.ujm.xmltech.tasklet;
 
-import com.ujm.xmltech.entity.FilePain008;
 import com.ujm.xmltech.entity.Transaction;
 import com.ujm.xmltech.services.TransactionService;
 import com.ujm.xmltech.utils.BankSimulationConstants;
+import com.ujm.xmltech.utils.Banks;
+import iso.std.iso._20022.tech.xsd.pain_008_001.ObjectFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -43,26 +44,28 @@ public class FileWrite implements Tasklet{
      */
     @Override
     public RepeatStatus execute(StepContribution step, ChunkContext context) throws Exception {
+ 
         //L'object va maintenant etre de scruter en bdd (potentiellement dans une etape precedente) afin de determiner si le fichier a ete totalement traite
         //Si c'est le cas il faut recuperer toutes les informations dont vous avez besoin et boucler dessus via la methode write pour les ecrire dans un fichier
+       write();
         return RepeatStatus.FINISHED;
     }
         
-    public void write(Object item) {
+    public void write() {
         //Added a random in order to have a different file each time
         String namebank = null;
       
-        List<FilePain008> listFilesPain008 = serviceTransaction.getFilesPain008();
-        for(FilePain008 filePain008 : listFilesPain008) {
-
+        JAXBContext ctx;
+        
+        for(Banks type : Banks.values()) {
+            namebank = type.name();
             //get the bank name, from the first 4th letter of the IBAN
-            namebank = filePain008.getMsgId().substring(0, 4);
             File file = new File(BankSimulationConstants.OUT_DIRECTORY + "pain008.001.002_"+ namebank + "_" + Math.random() + ".xml");
             OutputStream out;
             try {
                 out = new FileOutputStream(file);
                 OutputStreamWriter writer = new OutputStreamWriter(out);
-                JAXBContext ctx = JAXBContext.newInstance(item.getClass());
+                ctx = JAXBContext.newInstance(ObjectFactory.class);
                 Marshaller marshaller = ctx.createMarshaller();
                 marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
                 marshaller.setProperty("jaxb.fragment", Boolean.TRUE);
@@ -70,9 +73,9 @@ public class FileWrite implements Tasklet{
                 String documentBase = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.008.001.02\">\n";
                 writer.write(documentBase);
                 //write header item
-                writer.write(getXMLFragment(item, "CstmrDrctDbtInitn", marshaller) + "\n");
+                writer.write(getXMLFragment(ObjectFactory.class, "CstmrDrctDbtInitn", marshaller) + "\n");
                 
-                List<Transaction> listTransactions = serviceTransaction.getTransactionsByFileMsgId(filePain008.getMsgId());
+                List<Transaction> listTransactions = serviceTransaction.getTransactionsByidBank(namebank);
                 
                 String XMLPAIN008Transactions = "";
                 for(Transaction transaction : listTransactions) {
@@ -81,7 +84,7 @@ public class FileWrite implements Tasklet{
                     
                     /* Balise écriture fileMsgId */
                     writer.write("\n<fileMsgId>\n");
-                    String fileMsgId  = transaction.getFileMsgId();
+                    String fileMsgId  = transaction.getIdBank();
                     writer.write("  " + fileMsgId);
                     writer.write("\n</fileMsgId>\n");
                     

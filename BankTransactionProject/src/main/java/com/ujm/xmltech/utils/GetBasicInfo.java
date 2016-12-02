@@ -8,6 +8,7 @@ import java.util.List;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
+import org.apache.commons.lang.StringUtils;
 import org.joda.time.DateTime;
 
 /**
@@ -85,7 +86,7 @@ public class GetBasicInfo {
      * @return ccy the currency
      */
     public static String getCurrrency(PaymentInstructionInformation4 pmtInstr){
-        return pmtInstr.getDrctDbtTxInf().get(1).getInstdAmt().getCcy();
+        return pmtInstr.getDrctDbtTxInf().get(0).getInstdAmt().getCcy();
     }
     
     /**
@@ -140,10 +141,10 @@ public class GetBasicInfo {
     public static BigDecimal getPaymentsTransaction(PaymentInstructionInformation4 pmtInstr){
         BigDecimal amount= new BigDecimal("0");
          List<DirectDebitTransactionInformation9> drctDbtTxInf = pmtInstr.getDrctDbtTxInf();
-        for(int i=0; i< drctDbtTxInf.size(); i++) {
-            DirectDebitTransactionInformation9 d = drctDbtTxInf.get(i);
-            amount.add(d.getInstdAmt().getValue());
+        for(DirectDebitTransactionInformation9 ddti: drctDbtTxInf) {
+            amount.add(ddti.getInstdAmt().getValue());
         }
+        
         return amount;
     }
     
@@ -162,5 +163,29 @@ public class GetBasicInfo {
             totalAmount.add(GetBasicInfo.getPaymentsTransaction(pmtInstr));     
         }
         return totalAmount;
+    }
+    
+    /**
+     * Method get Bic
+     * 
+     * @param pmtInstr  
+     * 
+     * @return BIC
+     */
+    public static String getBIC(PaymentInstructionInformation4 pmtInstr){
+       return  pmtInstr.getCdtrAgt().getFinInstnId().getBIC();
+    }
+    
+   
+    
+     /**
+     * Method to get BankName from Bic
+     * 
+     * @param pmtInstr  
+     * 
+     * @return BIC
+     */
+    public static String getBankNamefromBic(PaymentInstructionInformation4 pmtInstr){
+        return StringUtils.substring(GetBasicInfo.getBIC(pmtInstr), 0, 4);
     }
 }
