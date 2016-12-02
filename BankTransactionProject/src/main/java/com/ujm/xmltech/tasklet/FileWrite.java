@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.StringWriter;
+import java.math.BigDecimal;
 import java.util.List;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -27,7 +28,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 
 /**
- * class FileWrite to generate a pain008 for other banks.
+ * class FileWrite to generate a pain008 for the others banks.
  */
 public class FileWrite implements Tasklet{
     /*
@@ -36,6 +37,9 @@ public class FileWrite implements Tasklet{
     @Autowired
     private TransactionService serviceTransaction;
     
+    /*
+     * Method execute with the class RepeatStatus.
+     */
     @Override
     public RepeatStatus execute(StepContribution step, ChunkContext context) throws Exception {
         //L'object va maintenant etre de scruter en bdd (potentiellement dans une etape precedente) afin de determiner si le fichier a ete totalement traite
@@ -72,8 +76,71 @@ public class FileWrite implements Tasklet{
                 String XMLPAIN008Transactions = "";
                 for(Transaction transaction : listTransactions) {
                     // ECRITURE DANS LE FILE XMLPAIN008
+                    writer.write("<GrpHdr>\n");
                     
+                    /* Balise écriture fileMsgId */
+                    writer.write("\n<fileMsgId>\n");
+                    String fileMsgId  = transaction.getFileMsgId();
+                    writer.write("  " + fileMsgId);
+                    writer.write("\n</fileMsgId>\n");
                     
+                    /* Balise écriture checksum */
+                    writer.write("\n<checksum>\n");
+                    BigDecimal checksum = transaction.getChecksum();
+                    writer.write("  " + Integer.parseInt(checksum.toString()));
+                    writer.write("\n</checksum>\n");
+                    
+                    writer.write("</GrpHdr>\n");
+                    
+                    /* Balise écriture id */
+                    writer.write("\n<id>\n");
+                    long id = transaction.getId();
+                    writer.write("  " + (int) id);
+                    writer.write("\n</id>\n");
+                    
+                    /* Balise écriture amount */
+                    writer.write("\n<amount>\n");
+                    long amount = transaction.getId();
+                    writer.write("  " + (int) amount);
+                    writer.write("\n</amount>\n");
+                                     
+                    /* Balise écriture codeErreur */
+                    writer.write("\n<codeErreur>\n");
+                    String codeerror = transaction.getCodeErreur();
+                    writer.write("  " + codeerror);
+                    writer.write("\n</codeErreur>\n");
+                    
+                    /* Balise écriture Currency */
+                    writer.write("\n<currency>\n");
+                    String currency = transaction.getCurrency();
+                    writer.write("  " + currency);
+                    writer.write("\n</currency>\n");
+                    
+                    /* Balise écriture date */
+                    writer.write("\n<date>\n");
+                    String date = transaction.getDate();
+                    writer.write("  " + date);
+                    writer.write("\n</date>\n");
+                    
+                    /* Balise écriture endToEndId */
+                    writer.write("\n<endToEndId>\n");
+                    String endToEndId  = transaction.getEndToEndId();
+                    writer.write("  " + endToEndId);
+                    writer.write("\n</endToEndId>\n");
+                    
+                    /* Balise écriture ibanDebitor */
+                    writer.write("\n<ibanDebitor>\n");        
+                    String ibanDebitor  = transaction.getIbanDebitor();
+                    writer.write("  " + ibanDebitor);
+                    writer.write("\n</ibanDebitor>\n");
+                    
+                    /* Balise écriture slev */
+                    writer.write("\n<slev>\n");  
+                    String slev = transaction.getSlev();
+                    writer.write(slev);
+                    writer.write("\n<slev>\n");
+                    
+                    /* Delete database */
                     serviceTransaction.deleteTransaction(transaction.getId());
                 }
                 writer.write(XMLPAIN008Transactions);
